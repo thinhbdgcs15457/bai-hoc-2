@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<style type="text/css" media="screen">
+		ul{list-style:none;}
+		#menu>ul{
+			font-family: Arial, san-serif;
+			font-size: 12px;
+			padding: 0;
+		}
+		#menu ul li{
+			float: left;
+			position: relative;
+		}
+		#menu ul a{
+			text-decoration: none;
+			color: #fff;
+			display: block;
+			font-weight: bold;
+			padding: 10px 30px;
+			background: #000;
+		}
+		#menu ul a:hover{
+			background:#555;
+		}
+		#menu li ul a{
+			background: #444;
+		}
+		#menu li ul{
+			position: absolute;
+			display: none;
+			width: 200px;
+		}
+		#menu li:hover ul{
+			display: block;
+		}
+	</style>
+</head>
+<body>
+<div id="menu">
+	<ul>
+	     <li><a href="#">Home</a></li>
+	     <li><a href="#">About Us</a></li>
+	     <li><a href="#">News</a>
+	         <ul>
+	             <li><a href="#">Sub menu</a></li>
+                 <li><a href="#">Sub menu</a></li>
+             </ul>
+         </li>
+         <li><a href="#">Services</a>
+             <ul>
+                 <li><a href="#">Sub menu service</a></li>
+                 <li><a href="#">Sub menu service</a></li>
+             </ul>
+         </li>
+         <li><a href="#">Site Map</a></li>
+         <li><a href="#">Contact</a></li>
+    </ul>      
+</div>
+	
+</body>
+</html>
